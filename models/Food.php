@@ -1,13 +1,13 @@
 <?php
-require_once __DIR__ . "./Product";
+require_once __DIR__ . "/Product.php";
 
 class Food extends Product{
     public $ingredients = [];
     public $ageRange;
 
-    function __construct($_name, $_price, $_category, $_ingredients, $_ageRange)
+    function __construct($_image, $_name, $_price, $_category, $_ingredients, $_ageRange)
     {
-        parent::__construct($_name, $_price, $_category);
+        parent::__construct($_image, $_name, $_price, $_category);
         $this->setIngredients($_ingredients);
         $this->setAgeRange($_ageRange);
     }

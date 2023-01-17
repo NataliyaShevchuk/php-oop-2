@@ -2,7 +2,7 @@
 
 class Category{
     protected $name;
-    protected $icon = "fa-solid fa-circle-half-stroke";
+    protected $icon = "fa-solid";
 
     function __construct($_name, $_icon){
         $this->setName($_name);
@@ -48,6 +48,10 @@ class Category{
         $this->icon = $icon;
 
         return $this;
+    }
+
+    public function getIconHTML() {
+        return "<i class=' $this->icon' />";
     }
 }
 
