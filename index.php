@@ -3,6 +3,8 @@ require_once "./models/Product.php";
 require_once "./models/Category.php";
 require_once "./models/Food.php";
 
+$catFood = new Product("")
+
 
 
 
