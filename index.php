@@ -69,7 +69,8 @@ $products = [
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
-                            <?php  "<img src='{$product->getImage()}' />" ?>  
+                            <!-- <img src="<?php echo$product->getImage()?>" alt=""> -->
+                            <?php echo "<img src='{$product->getImage()}' />" ?>  
                             <h4> <?php echo $product->getName() ?> </h4>
                             <h5> <?php echo $product->getPrice() ?> </h5>
                             
