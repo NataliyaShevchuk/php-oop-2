@@ -1,8 +1,8 @@
 <?php
 require_once "./models/Product.php";
 require_once "./models/Category.php";
-// require_once "./models/Food.php";
-// require_once "./models/Game.php";
+require_once "./models/Food.php";
+
 
 
 
